@@ -9,12 +9,7 @@ console.log(
 )  // not a good practice.Code readability shoud be high
 
 
-let name = "Aarya" //String
-let age = 14 // Number
-let isLoggedIn = true // Boolean
-let stage; // undefined
-
-let value = null; // null
+//------------------------------------------------------------------------------------------------------------------------------------
 
 // Primitive DataTypes
 
@@ -26,9 +21,51 @@ let value = null; // null
 // undefined
 // symbol -> unique
 
-//object
+let age = 14 // Number
+let bigNumber = 167247479473884392n // bigInt
+let namee = "Aarya" //String
+let isLoggedIn = true // Boolean
+let value = null; // null
+let stage; // undefined
+let id = Symbol(1,2,3) // symbol
+let anotherId = Symbol(1,2,3) 
 
+console.log(id === anotherId)// false
+
+//------------------------------------------------------------------------------------------------------------------------------------
+
+// Reference(Non Primitive) Datatype
+
+// Array 
+// object 
+// functions
+
+let student_names = ["Avni","Somesh","Akriti"]
+
+
+let myObj = {
+    name:"Aarya",
+    age:"12",
+}
+
+
+let myFunction = function(){
+    console.log("Hemllo World")
+   
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+// type of Primitive Datatypes
 console.log(typeof false)
 console.log(typeof age)
 console.log(typeof stage)
 console.log(typeof value)
+console.log(typeof id)
+console.log(typeof bigNumber)
+console.log(typeof namee)
+
+// type of Reference Datatype
+console.log(typeof student_names)
+console.log(typeof myObj)
+console.log(typeof myFunction)
