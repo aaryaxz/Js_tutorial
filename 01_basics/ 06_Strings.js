@@ -34,7 +34,7 @@ console.log(user_name.trim()) // only remove white space plus line terminators(\
 
 const url = "https://www.codera.com/coding_platform"
 console.log(url.replace("codera","whiteHat;)"))
-console.log(url.includes('sonu'))
+console.log(url.includes('sonu'))  
 
 const greeting = "Good Morning Dear"
 console.log(greeting.split(" "))
